@@ -1,6 +1,8 @@
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:greenshield_ai/core/helpers/ui_exporter.dart';
+import 'package:greenshield_ai/features/predict/view/predictscreen.dart';
 
 class SplashScreen extends HookConsumerWidget {
   static String get name => '/SplashScreen';
@@ -10,7 +12,11 @@ class SplashScreen extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, ref) {
     init() async {
-      await Future.delayed(2.seconds).then((v) {});
+      await Future.delayed(2.seconds).then((v) {
+        if (context.mounted) {
+          context.goNamed(PredictScreen.path);
+        }
+      });
     }
 
     useEffect(() {

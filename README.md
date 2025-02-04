@@ -1,7 +1,7 @@
 
 # GreenShield AI - Agricultural Assistant
 
-GreenShield AI is an AI-powered mobile application designed to assist farmers and agricultural professionals in identifying plant diseases, providing treatment suggestions, and offering disease prevention methods. The app uses machine learning for disease classification and leverages the OpenAI API for in-depth guidance on managing plant health.
+GreenShield AI is an AI-powered mobile application designed to assist farmers and agricultural professionals in identifying plant diseases, providing treatment suggestions, and offering disease prevention methods. The app uses machine learning for disease classification and leverages the OpenAI API/Deepseek for in-depth guidance on managing plant health.
 
 ## Features
 

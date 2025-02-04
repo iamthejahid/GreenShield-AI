@@ -17,6 +17,7 @@ class DecoratedContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.symmetric(vertical: 6.w, horizontal: 16.w),
+      margin: EdgeInsets.symmetric(horizontal: 1.w),
       decoration: BoxDecoration(
           color: color ?? Colors.white,
           borderRadius: BorderRadius.circular(16.r),

@@ -18,11 +18,11 @@ class PredictScreen extends HookConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        // backgroundColor: AppColors.primary,
+        backgroundColor: AppColors.primary,
         title: Text(
           'Greenshield AI',
           style: GoogleFonts.nunito(
-            color: Colors.black,
+            color: Colors.white,
             fontSize: 24.sp,
             fontWeight: FontWeight.bold,
           ),

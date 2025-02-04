@@ -75,6 +75,8 @@ Entry point for the Flutter application, setting up routing and service locator 
 
 ## Folder Structure
 
+```
+
 .
 ├── app
 │   ├── app.dart
@@ -107,8 +109,11 @@ Entry point for the Flutter application, setting up routing and service locator 
 └── main.dart
 ./
 
+```
+
 
 ### Assets 
+```
 .
 ├── capture.png
 ├── chat.png
@@ -117,6 +122,7 @@ Entry point for the Flutter application, setting up routing and service locator 
     ├── api_key.txt
     ├── labels.txt
     └── model.tflite
+```
 
 ## Preview
 <p align="center">

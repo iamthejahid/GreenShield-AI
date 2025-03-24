@@ -24,11 +24,11 @@ This file contains the logic for loading the TensorFlow Lite model, preprocessin
 
 ### `lib/features/predict/data/deepseek/deep_seek_repo.dart`
 
-This file interfaces with the DeepSeek API to send messages regarding the predicted disease and receive detailed responses in Bengali. The `DeepSeekRepoImpl` class handles the API communication, including loading the API key and making requests to OpenAI's/Deepseeks GPT model.
+This file interfaces with the OpenAI/ DeepSeek API to send messages regarding the predicted disease and receive detailed responses in Bengali. The `DeepSeekRepoImpl` class handles the API communication, including loading the API key and making requests to OpenAI's/Deepseeks GPT model.
 
 ### `lib/features/predict/view/predict_state.dart`
 
-This file defines the state management logic for the app. It uses `StateNotifierProvider` to manage the state of the prediction process, including loading, result updates, and the communication with DeepSeek for additional information.
+This file defines the state management logic for the app. It uses `StateNotifierProvider` to manage the state of the prediction process, including loading, result updates, and the communication with DeepSeek/OpenAI for additional information.
 
 ### `lib/core/helpers/ui_exporter.dart`
 
